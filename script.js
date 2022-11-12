@@ -2,9 +2,10 @@ const h1 = document.querySelector("h1");
 const input1 = document.querySelector("#calculo1");
 const input2 = document.querySelector("#calculo2");
 const btn = document.querySelector("#btncalcular");
+const btn1 = document.getElementById("btncalcular2");
 const pResults = document.querySelector("#results");
 
-
+btn1.addEventListener('click', btnonclick);
 
 function btnonclick() {
     const sumaInputs = Number(input1.value) + Number(input2.value);
